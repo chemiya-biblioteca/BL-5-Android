@@ -1,0 +1,50 @@
+* contenido adicionales:
+*   drawable anadir vector asset para iconos
+*   permisos android manifest
+*   imagen fondo como background de un layout
+*   para crear la lista:
+*       new layout resource file y de vista ponemos como queremos que sea cada elemento
+*       creamos la clase java y ponemos su atribuots
+*       creamos clase adaptadora que extienda baseadapter
+*       ponemos el list view en la pantalla que queramos
+*
+*   para crear el menu de settings:
+*       crear activity normal para settings
+*       creas  android resouce file de xml y pones preference screen y categorias
+*       en strings xml pones despeglables de las opciones que tendra
+*       creas fragment que extienda preference fragment
+*       en el xml de la actividad pones el fragment
+*       en la activity lanzas el fragment
+*
+*
+*
+*   para crear el menu despegable:
+*       new android resouce file como menu
+*       anades items e ifroom para si lo quieres en la barra
+*       funcion para inflarlo
+*       funcion para si se selecciona un elemento
+*
+*
+*   sobre los xml:
+*       errores y avisos se resuelven con fix o ignored
+*       al poner un elemento hay que dar a infer contraints
+*       poner el id de cada elemento para identificarlo
+*       el texto enlazado con el archivo de strings
+*
+*   para la traducion:
+*       boton derecho en el string y open translations editor
+*       dar al icono de anadir y seleccionar idioma
+*
+*   para los fragment:
+*       creas los fragmentos
+*       los pones en el layout de donde sea la activity
+*
+*   para servicio:
+*       creas clase que extienda service
+*       al pulsar boton crear servicio o lo cierras
+*       en el manifiesto defines servicio
+*
+*
+*   para scroll view
+*       meter dentro layout con todo el contenido
+*
